@@ -1,4 +1,3 @@
-import os
 
 from flask import (
     Flask,
@@ -9,7 +8,6 @@ from flask import (
     session,
     render_template_string
 )
-from flask.ext.session import Session
 
 app = Flask(__name__)
 
